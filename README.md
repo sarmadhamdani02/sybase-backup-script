@@ -91,12 +91,4 @@ Edit `backup.conf` with your environment details:
 [2026-04-07 02:08:35] ========================================
 ```
 
-## Security
 
-- **Never commit `backup.conf`** - it contains passwords
-- `.gitignore` is set up to exclude it automatically
-- Set file permissions: `chmod 600 backup.conf` and `chmod 700 fiori_backup.sh`
-
-## License
-
-MIT
